@@ -1,0 +1,128 @@
+/* Cart container */
+.cart-container {
+  padding: 30px;
+  background-color: #f9f9f9;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Cart item */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Cart item hover effect */
+.cart-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart item image */
+.cart-item-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Cart item details */
+.cart-item-details {
+  flex: 1;
+  padding-left: 15px;
+}
+
+/* Cart item name */
+.cart-item-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Cart item cost and total */
+.cart-item-cost,
+.cart-item-total {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Cart item button */
+.cart-item-button {
+  padding: 8px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.cart-item-button:hover {
+  background-color: #45a049;
+}
+
+/* Cart item delete button */
+.cart-item-delete {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.cart-item-delete:hover {
+  background-color: #e53935;
+}
+
+/* Continue shopping button */
+.continue_shopping_btn {
+  margin-top: 20px;
+  display: block;
+  padding: 12px 20px;
+  background-color: #ff9800;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.continue_shopping_btn:hover {
+  background-color: #f57c00;
+}
+
+/* Get started buttons */
+.get-started-button,
+.get-started-button1 {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.get-started-button:hover,
+.get-started-button1:hover {
+  background-color: #45a049;
+}
